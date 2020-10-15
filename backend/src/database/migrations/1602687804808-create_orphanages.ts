@@ -23,7 +23,7 @@ export class createOrphanages1602687804808 implements MigrationInterface {
                     type: 'varchar'
                 },
                 {
-                    name: 'latidude',
+                    name: 'latitude',
                     type: 'decimal',
                     scale: 10,
                     precision: 2

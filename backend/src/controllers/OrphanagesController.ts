@@ -80,7 +80,6 @@ export default {
 
     await orphanagesRepository.save(orphanage);
 
-    console.log(orphanage);
     return res.status(201).json(orphanage);
   },
 };
